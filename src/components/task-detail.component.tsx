@@ -15,7 +15,7 @@ const ParaDot = styled.div`
 
   span {
     position: absolute;
-    transform: translateY(6px) translateX(5px);
+    transform: translateY(6px) translateX(3px);
     width: 6px;
     height: 6px;
     border-radius: 50%;

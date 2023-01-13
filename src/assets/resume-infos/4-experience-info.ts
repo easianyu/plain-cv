@@ -15,7 +15,7 @@ export const experienceInfo: Experiences = {
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       company: 'University of Science and Technology Beijing',
       position: 'Research Assistant',
       address: 'Beijing, China',
@@ -25,7 +25,7 @@ export const experienceInfo: Experiences = {
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       company: 'Institute of Automation, Chinese Academy of Sciences',
       position: 'Research Assistant',
       address: 'Beijing, China',
