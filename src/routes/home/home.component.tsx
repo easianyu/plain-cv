@@ -17,7 +17,7 @@ const Home = () => {
         <SkillsFC skills={skills} />
         <ExperienceFC experiences={experiences} />
         <ProjectsFC projects={projects} />
-        <PatentFC patents={patents} />
+        {/* <PatentFC patents={patents} /> */}
       </div>
     </main>
   );

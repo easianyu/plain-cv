@@ -57,31 +57,31 @@ export const myInfo: MyInfo = {
         'Applied optimized image format into ^Meituan^ ^App^ using #React# #Native#',
       ],
     },
-    {
-      company: 'University of Science and Technology Beijing',
-      position: 'Research Assistant',
-      address: 'Beijing, China',
-      duration: 'Sep. 2019 - Jun. 2021',
-      tasks: [
-        'Modeling for Degradation of Biomedical Polymer: Designed the phase image feature recognition algorithm to recognize the phase image features, and characteristic “island” structures. Implemented the chain scission model by #Monte# #Carlo# #(MC)# method. Designed the #Boundary# #Extension# #Algorithm# #(NNBE)# to identify features with hole (block) and crack (strip) shapes and utilized these features to establish strength models for different phases.  Published two publications for this research',
-      ],
-    },
-    {
-      company: 'Institute of Automation, Chinese Academy of Sciences',
-      position: 'Research Assistant',
-      address: 'Beijing, China',
-      duration: 'Jan. 2019 - Apr. 2019',
-      tasks: [
-        'A Flower-Image Search System Based on DL: Implemented the overall design of multi-layer #convolutional# #neural# #networks# and fully connected neural networks using TensorFlow. Optimized the convolutional layers by back-propagation algorithm and applied forward-propagation and back-propagation functions to the fully connected layer. The overall accuracy of the recognition was 95.66%. The project was granted a patent (AU2019100352A4)',
-      ],
-    },
+    // {
+    //   company: 'University of Science and Technology Beijing',
+    //   position: 'Research Assistant',
+    //   address: 'Beijing, China',
+    //   duration: 'Sep. 2019 - Jun. 2021',
+    //   tasks: [
+    //     'Modeling for Degradation of Biomedical Polymer: Designed the phase image feature recognition algorithm to recognize the phase image features, and characteristic “island” structures. Implemented the chain scission model by #Monte# #Carlo# #(MC)# method. Designed the #Boundary# #Extension# #Algorithm# #(NNBE)# to identify features with hole (block) and crack (strip) shapes and utilized these features to establish strength models for different phases.  Published two publications for this research',
+    //   ],
+    // },
+    // {
+    //   company: 'Institute of Automation, Chinese Academy of Sciences',
+    //   position: 'Research Assistant',
+    //   address: 'Beijing, China',
+    //   duration: 'Jan. 2019 - Apr. 2019',
+    //   tasks: [
+    //     'A Flower-Image Search System Based on DL: Implemented the overall design of multi-layer #convolutional# #neural# #networks# and fully connected neural networks using TensorFlow. Optimized the convolutional layers by back-propagation algorithm and applied forward-propagation and back-propagation functions to the fully connected layer. The overall accuracy of the recognition was 95.66%. The project was granted a patent (AU2019100352A4)',
+    //   ],
+    // },
   ],
 
   projects: [
     {
       name: 'TikTik: a TikTok like video sharing App based on React',
       duration: 'Dec. 2022 - Jan.2023',
-      github: 'https://github.com/easianyu/yixuan-kkshop',
+      github: 'https://github.com/easianyu/tiktok-app',
       deploy: 'https://tiktok-app-plum.vercel.app/',
       tasks: [
         'A #TypeScript# React App created by #Next# #JS# where you can share, post, comment and like videos',
@@ -105,29 +105,29 @@ export const myInfo: MyInfo = {
         'Integratd #Stripe# to support payment with creidt card',
       ],
     },
-    {
-      name: 'Mini Unix-Like Kernel Development of an Operating System',
-      duration: 'Jan. 2022 - May. 2022',
-      // github: 'https://github.com/easianyu/yixuan-kkshop',
-      // deploy: 'https://inquisitive-starlight-56e8cb.netlify.app/',
-      tasks: [
-        "Implemented #process# #scheduling,# #context# #switch# and #mutex# lock with Banker's Algorithm to avoid deadlock",
-        'Designed a #virtual# #memory# #management# #system# for processes by implementing page tables to perform virtual address translation. The virtual memory is implemented by a linked list of “mmobj”, which has different kinds of methods based on the type of the “mmobj” (C style polymorphism)',
-        'Developed a #virtual# #file# #system# which can perform read, write, and delete operations for files',
-      ],
-    },
+    // {
+    //   name: 'Mini Unix-Like Kernel Development of an Operating System',
+    //   duration: 'Jan. 2022 - May. 2022',
+    //   // github: 'https://github.com/easianyu/yixuan-kkshop',
+    //   // deploy: 'https://inquisitive-starlight-56e8cb.netlify.app/',
+    //   tasks: [
+    //     "Implemented #process# #scheduling,# #context# #switch# and #mutex# lock with Banker's Algorithm to avoid deadlock",
+    //     'Designed a #virtual# #memory# #management# #system# for processes by implementing page tables to perform virtual address translation. The virtual memory is implemented by a linked list of “mmobj”, which has different kinds of methods based on the type of the “mmobj” (C style polymorphism)',
+    //     'Developed a #virtual# #file# #system# which can perform read, write, and delete operations for files',
+    //   ],
+    // },
 
-    {
-      name: 'Game Nirvana (A Unity Based Gravity Game)',
-      duration: 'Aug. 2022 - Dec.2022',
-      github: 'https://github.com/XJDKC/CSCI-526',
-      deploy: 'https://xjdkc.github.io/CSCI-526',
-      tasks: [
-        'A game for two players to solve puzzles with gravity change mechanisms based on #Unity# #Game# #Engines.#',
-        'Designed an algorithm to move and zoom in/out the camera based on the relative position of two players and the ratio of their distance to the length of the camera ',
-        'Utilized the #physical# #engine# to implement the “Gate” to change the gravity of the players when they collide with it, and the “Enemy” who can move upside down containing animations created in Unity.',
-      ],
-    },
+    // {
+    //   name: 'Game Nirvana (A Unity Based Gravity Game)',
+    //   duration: 'Aug. 2022 - Dec.2022',
+    //   github: 'https://github.com/XJDKC/CSCI-526',
+    //   deploy: 'https://xjdkc.github.io/CSCI-526',
+    //   tasks: [
+    //     'A game for two players to solve puzzles with gravity change mechanisms based on #Unity# #Game# #Engines.#',
+    //     'Designed an algorithm to move and zoom in/out the camera based on the relative position of two players and the ratio of their distance to the length of the camera ',
+    //     'Utilized the #physical# #engine# to implement the “Gate” to change the gravity of the players when they collide with it, and the “Enemy” who can move upside down containing animations created in Unity.',
+    //   ],
+    // },
     {
       name: 'Employee Attendance Management System',
       duration: 'Mar. 2020 - May 2020',
