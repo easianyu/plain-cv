@@ -26,9 +26,9 @@ export const projectInfo: Projects = {
         'Applied #Sass# and #Styled-component# ( as a tool to write #CSS# #in# #JS# ) to style the page',
         'Used latest #Redux-toolkit# to store and manage the state of users and products',
         'Added #Redux-saga# and #thunk# into middleware to manage async functions like user login or fetch product and user data from Firebase.',
-        '#Encapsulated# input forms and tables as configuration components to simplify future maintainence  improve efficiency',
+        '#Encapsulated# input forms and tables as configuration components to simplify future maintenance  improve efficiency',
         'Utilized #React# #SSR,# #dynamic# #router# #loading# and #lazy# #import# to reduce the request time causing the white screen',
-        'Integratd #Stripe# to support payment with creidt card',
+        'Integrated #Stripe# to support payment with credit card',
       ],
     },
     {
