@@ -43,7 +43,7 @@ export const projectInfo: Projects = {
     },
 
     {
-      hidden: false,
+      hidden: true,
       name: 'Game Nirvana (A Unity Based Gravity Game)',
       duration: 'Aug. 2022 - Dec.2022',
       githubLink: 'https://github.com/XJDKC/CSCI-526',
