@@ -70,9 +70,9 @@ export const projectInfo: Projects = {
       name: 'A CPU Design Based on MIPS Instruction Set	Jun. 2019',
       duration: 'Mar. 2019 - May 2019',
       taskList: [
-        'Independently implemented the CPU with 5-level pipelining through Verilog and FPGA experiment box',
-        'Used Xilinx to simulate and verify the output of pipelines and detected data collisions',
-        'Designed a data orientation function to solve the problem of data collision',
+        'Independently implemented the CPU with 5-level #pipelining# through #Verilog# and #FPGA# experiment box',
+        'Used #Xilinx# to simulate and verify the output of pipelines and detected #data# #collisions#',
+        'Designed a #data# #orientation# function to solve the problem of data collision',
       ],
     },
   ],
