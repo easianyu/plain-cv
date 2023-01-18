@@ -9,13 +9,15 @@ export const experienceInfo: Experiences = {
       address: 'Beijing, China',
       duration: 'June. 2022 - Sept. 2022',
       taskList: [
+        'Intern for #Multimedia# #SDK# team, which builds image/video processing SDKs that provide functionality for services.',
         'Improved the speed of image encoding of #x265# in #C++.# Utilizing #SSE/AVX# and #NEON# instruction set to accelerate the computation in image processing and provide #JavaScript# APIs to generate data packing size, which speeded up the image encoding time by #60%#',
         'Integrated the improved x265 into our #libheif# library, wrote #Shell# scripts on #Linux# to get optimal encoding parameters for converting .jpeg images to .heif version on ^Meituan^ ^App.^ This optimization reduces encoding time by #36%# and compression ratio by 22% compared to the current .webp format version',
-        'Applied optimized image format into ^Meituan^ ^App^ using #React# #Native#',
+        'Developed local screening recording and sharing function of Meituan Meeting app(a self-innovate competitive product of Zoom) using #WebRTC# technology and optimized the thread and task invocation of SDKs',
+        'Designed a #test# #automation# #script# in #Python# for Meituan Meeting to test audio and video calls for two people for 20 seconds as a period 1000 times. It successfully passed without any crash.',
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       company: 'University of Science and Technology Beijing',
       position: 'Research Assistant',
       address: 'Beijing, China',
@@ -25,7 +27,7 @@ export const experienceInfo: Experiences = {
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       company: 'Institute of Automation, Chinese Academy of Sciences',
       position: 'Research Assistant',
       address: 'Beijing, China',

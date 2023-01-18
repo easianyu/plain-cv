@@ -3,7 +3,7 @@ import { Projects } from './types';
 export const projectInfo: Projects = {
   projectList: [
     {
-      hidden: false,
+      hidden: true,
       name: 'TikTik: a TikTok like video sharing App based on React',
       duration: 'Dec. 2022 - Jan.2023',
       githubLink: 'https://github.com/easianyu/tiktok-app',
@@ -16,7 +16,7 @@ export const projectInfo: Projects = {
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       name: 'Online Shopping Website Based on React',
       duration: 'Nov. 2022 - Dec.2022',
       githubLink: 'https://github.com/easianyu/yixuan-kkshop',

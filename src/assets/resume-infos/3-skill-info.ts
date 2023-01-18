@@ -4,20 +4,15 @@ export const skillInfo: Skills = {
   skillList: [
     {
       skillType: 'Languages',
-      skillItems: ['HTML', 'CSS', 'JavaScript ES6', 'TypeScript', 'C++', 'Java', 'C#', 'Python'],
+      skillItems: ['C++', 'Java', 'Python', 'JavaScript', 'C#'],
     },
     {
-      skillType: 'Frameworks',
-      skillItems: [
-        'React',
-        'React-Redux',
-        'Redux-Saga',
-        'Next JS',
-        'Axios',
-        'Sass',
-        'React Native',
-      ],
+      skillType: 'Basics',
+      skillItems: ['Linux', 'Shell', 'SQL', 'Git', 'Computer Modeling', 'MySQL', 'PostgreSQL'],
     },
-    { skillType: 'Database/Tools', skillItems: ['GraphQL', 'MySQL', 'GitHub', 'Linux', 'Shell'] },
+    {
+      skillType: 'Database/Tools',
+      skillItems: ['WebRTC', 'NumPy', 'Pandas', 'Matplotlib', 'Spring Boot'],
+    },
   ],
 };
