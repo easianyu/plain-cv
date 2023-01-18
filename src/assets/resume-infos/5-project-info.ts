@@ -65,5 +65,20 @@ export const projectInfo: Projects = {
         'Utilized #Apache# #Commons# #Fileupload# component and #XSSF-Workbook# to import attendance instances from local files and export data to local files. Designed a #Hash# #algorithm# to randomize file names to prevent duplicate names.',
       ],
     },
+    {
+      hidden: false,
+      name: 'A CPU Design Based on MIPS Instruction Set	Jun. 2019',
+      duration: 'Mar. 2019 - May 2019',
+      taskList: [
+        'Independently implemented the CPU with 5-level pipelining through Verilog and FPGA experiment box',
+        'Used Xilinx to simulate and verify the output of pipelines and detected data collisions',
+        'Designed a data orientation function to solve the problem of data collision',
+      ],
+    },
   ],
 };
+
+// A CPU Design Based on MIPS Instruction Set	Jun. 2019
+// Independently implemented the CPU with 5-level pipelining through Verilog and FPGA experiment box
+// Used Xilinx to simulate and verify the output of pipelines and detected data collisions
+// Designed a data orientation function to solve the problem of data collision
