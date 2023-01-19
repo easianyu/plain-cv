@@ -13,6 +13,7 @@ const ProfileContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 5px;
 
   h1 {
     font-size: 26px;
