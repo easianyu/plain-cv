@@ -40,11 +40,6 @@ const InnerContent = styled.div`
   width: 100%;
   height: 100%;
   background-color: #fff;
-
-  &:nth-child(-n +) {
-    /* margin-top: ${pageConfig.sectionGap}px; */
-    background-color: pink;
-  }
 `;
 
 const Home = () => {
