@@ -61,7 +61,7 @@ export const projectInfo: Projects = {
       githubLink: 'https://github.com/easianyu/css-hub',
       deployLink: 'https://easianyu.github.io/css-hub/',
       taskList: [
-        'Designed a website to exhibit various colorful and creative #CSS# works and their implementations. #Still# #updating# now!',
+        'Designed a website to exhibit colorful and creative #CSS# works and their implementations. #Still# #updating# now!',
       ],
     },
     {
