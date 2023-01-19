@@ -11,6 +11,7 @@ const SkillTypesContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 3px;
+  padding-bottom: 3px;
 `;
 
 const SkillsFC: FC<Props> = ({ skills }) => {

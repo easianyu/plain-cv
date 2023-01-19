@@ -24,7 +24,7 @@ const ContactInfo = styled.div`
   display: flex;
   font-size: small;
   gap: 20px;
-  margin-top: 4px;
+  margin-top: 2px;
 
   a {
     display: flex;
