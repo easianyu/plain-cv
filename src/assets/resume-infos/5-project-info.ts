@@ -71,7 +71,7 @@ export const projectInfo: Projects = {
       githubLink: 'https://github.com/easianyu/employee_attendance_system',
       taskList: [
         'Developed a full stack #Web# application based on #MVC# design pattern with #Spring# #Boot# and #MySQL.# Built #DAO,# #Service# and #Servlet# modules in the backend. Constructed the front-end websites using plain #HTML5,# #CSS3,# #jQuery,# and #Ajax# techniques. The system can serve more than #100# #employees# at the same time.',
-        'Implemented attendance checking based on #human# #face# #identification,# access through API from Baidu AI ',
+        // 'Implemented attendance checking based on #human# #face# #identification,# access through API from Baidu AI ',
         'Utilized #Apache# #Commons# #Fileupload# component and #XSSF-Workbook# to import attendance instances from local files and export data to local files. Designed a #Hash# #algorithm# to randomize file names to prevent duplicate names.',
       ],
     },

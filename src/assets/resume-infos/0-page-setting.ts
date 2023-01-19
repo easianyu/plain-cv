@@ -1,5 +1,5 @@
 export const pageConfig = {
-  marginX: 27,
+  marginX: 22,
   marginY: 40,
   fixHeight: true,
   sectionGap: 3,
