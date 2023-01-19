@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const SkillTypeContainer = styled.div`
   display: flex;
   gap: 5px;
+  margin-bottom: 2px;
 `;
 const SkillType: FC<{ skillName: string; skillItems: string[] }> = ({ skillName, skillItems }) => {
   return (
