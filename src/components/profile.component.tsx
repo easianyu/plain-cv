@@ -9,10 +9,12 @@ type Props = {
   profile: Profile;
 };
 
+const NameAdd = styled.div``;
+
 const ProfileContainer = styled.div`
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
   padding-bottom: 5px;
 
   h1 {
@@ -21,9 +23,12 @@ const ProfileContainer = styled.div`
 `;
 
 const ContactInfo = styled.div`
-  display: flex;
+  position: absolute;
+  right: -30px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+  column-gap: 10px;
   font-size: small;
-  gap: 20px;
   margin-top: 4px;
 
   a {
@@ -49,8 +54,10 @@ const ProfileFC: FC<Props> = ({ profile }) => {
 
   return (
     <ProfileContainer>
-      <h1>{name}</h1>
-      <p>{address}</p>
+      <NameAdd>
+        <h1>{name}</h1>
+        <p>{address}</p>
+      </NameAdd>
       <ContactInfo>
         <a href={`tel:${phone}`}>
           <AiFillPhone className='profile-icon' />
