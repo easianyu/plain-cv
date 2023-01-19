@@ -12,7 +12,6 @@ const EduExpContainer = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 14px;
-  margin: 5px 0;
 
   div:nth-child(2) {
     font-style: italic;
