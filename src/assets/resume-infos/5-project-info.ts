@@ -56,6 +56,16 @@ export const projectInfo: Projects = {
     },
     {
       hidden: false,
+      name: "Easian's CSS Hub: Arts and Animations of CSS Works",
+      duration: 'Dec. 2022 - Present',
+      githubLink: 'https://github.com/easianyu/css-hub',
+      deployLink: 'https://easianyu.github.io/css-hub/',
+      taskList: [
+        'Designed a website to exhibit various colorful and creative #CSS# works and their implementations. #Still# #updating# now!',
+      ],
+    },
+    {
+      hidden: false,
       name: 'Employee Attendance Management System',
       duration: 'Mar. 2020 - May 2020',
       githubLink: 'https://github.com/easianyu/employee_attendance_system',
@@ -66,23 +76,13 @@ export const projectInfo: Projects = {
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       name: 'A CPU Design Based on MIPS Instruction Set',
       duration: 'Mar. 2019 - May 2019',
       taskList: [
         'Independently implemented the CPU with 5-level pipelining through Verilog and FPGA experiment box',
         'Used Xilinx to simulate and verify the output of pipelines and detected data collisions',
         'Designed a data orientation function to solve the problem of data collision',
-      ],
-    },
-    {
-      hidden: false,
-      name: "Easian's CSS Hub: Arts and Animations of CSS Works",
-      duration: 'Dec. 2022 - Present',
-      githubLink: 'https://github.com/easianyu/css-hub',
-      deployLink: 'https://easianyu.github.io/css-hub/',
-      taskList: [
-        'Designed a website to exhibit various colorful and creative #CSS# works and their implementations. #Still# #updating# now!',
       ],
     },
   ],
