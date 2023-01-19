@@ -67,7 +67,7 @@ export const projectInfo: Projects = {
     },
     {
       hidden: false,
-      name: 'A CPU Design Based on MIPS Instruction Set	Jun. 2019',
+      name: 'A CPU Design Based on MIPS Instruction Set',
       duration: 'Mar. 2019 - May 2019',
       taskList: [
         'Independently implemented the CPU with 5-level pipelining through Verilog and FPGA experiment box',
@@ -75,9 +75,19 @@ export const projectInfo: Projects = {
         'Designed a data orientation function to solve the problem of data collision',
       ],
     },
+    {
+      hidden: false,
+      name: "Easian's CSS Hub: Arts and Animations of CSS Works",
+      duration: 'Dec. 2022 - Present',
+      githubLink: 'https://github.com/easianyu/css-hub',
+      deployLink: 'https://easianyu.github.io/css-hub/',
+      taskList: [
+        'Designed a website to exhibit various colorful and creative #CSS# works and their implementations. #Still# #updating# now!',
+      ],
+    },
   ],
 };
-
+// https://easianyu.github.io/css-hub/
 // A CPU Design Based on MIPS Instruction Set	Jun. 2019
 // Independently implemented the CPU with 5-level pipelining through Verilog and FPGA experiment box
 // Used Xilinx to simulate and verify the output of pipelines and detected data collisions
