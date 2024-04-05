@@ -1,26 +1,26 @@
-import { FC } from 'react';
+import { FC } from 'react'
 
-import { FaOctopusDeploy } from 'react-icons/fa';
-import { SiGithub } from 'react-icons/si';
-import styled from 'styled-components';
+import { FaOctopusDeploy } from 'react-icons/fa'
+import { SiGithub } from 'react-icons/si'
+import styled from 'styled-components'
 
 type Props = {
-  name: string;
-  github: string | undefined;
-  deploy: string | undefined;
-  duration: string;
-};
+  name: string
+  github: string | undefined
+  deploy: string | undefined
+  duration: string
+}
 
 const ProjectTitleContainer = styled.div`
   display: flex;
   justify-content: space-between;
   height: 18px;
-`;
+`
 
 const ProjectsInfo = styled.div`
   display: flex;
   gap: 5px;
-`;
+`
 
 const IconButton = styled.a`
   display: flex;
@@ -30,11 +30,20 @@ const IconButton = styled.a`
   border-radius: 40px;
   margin-top: -1px;
   border: 1px solid #aaa;
+  color: black; /* Set text color to black */
+  text-decoration: none; /* Optional: removes underline from links */
+
+  &:link,
+  &:visited,
+  &:hover,
+  &:active {
+    color: black; /* Ensure text is always black for all link states */
+  }
 
   span {
     font-size: 10px;
   }
-`;
+`
 
 const ProjectTitle: FC<Props> = ({ name, github, deploy, duration }) => {
   return (
@@ -55,7 +64,7 @@ const ProjectTitle: FC<Props> = ({ name, github, deploy, duration }) => {
       </ProjectsInfo>
       <div className='duration'>{duration}</div>
     </ProjectTitleContainer>
-  );
-};
+  )
+}
 
-export default ProjectTitle;
+export default ProjectTitle

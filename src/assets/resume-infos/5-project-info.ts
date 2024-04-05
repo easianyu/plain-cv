@@ -1,9 +1,9 @@
-import { Projects } from './types';
+import { Projects } from './types'
 
 export const projectInfo: Projects = {
   projectList: [
     {
-      hidden: false,
+      hidden: true,
       name: 'TikTik: a TikTok like video sharing App based on React',
       duration: 'Dec. 2022 - Jan.2023',
       githubLink: 'https://github.com/easianyu/tiktok-app',
@@ -13,32 +13,6 @@ export const projectInfo: Projects = {
         'Integrated #Sanity# under the hood as the backend. Wrote #Graph# #Relational# #Object# #Queries# in the front end to fetch Data and utilized #Axios# to call for GET, POST, PUT method',
         "Used #Zustand# to store users' state. And Customized the #useAuthStore()# #hook# to make managing users' profile, adding and removing likes, and fetching all users more easily",
         'Use #TailwindCSS# to style the components. And the App is fully #responsive# and completely compatible with #mobile# #devices# of different sizes',
-      ],
-    },
-    {
-      hidden: false,
-      name: 'Online Shopping Website Based on React',
-      duration: 'Nov. 2022 - Dec.2022',
-      githubLink: 'https://github.com/easianyu/yixuan-kkshop',
-      deployLink: 'https://inquisitive-starlight-56e8cb.netlify.app/',
-      taskList: [
-        'A single Page E-commerce Application using #React# and #React-Router# and #hooks,# coded in #TypeScript.# with #Firebase# as its backend. Users can sign in/out/up, browse various types of clothes and add them to the cart',
-        'Applied #Sass# and #Styled-component# ( as a tool to write #CSS# #in# #JS# ) to style the page',
-        'Used latest #Redux-toolkit# to store and manage the state of users and products',
-        'Added #Redux-saga# and #thunk# into middleware to manage async functions like user login or fetch product and user data from Firebase.',
-        '#Encapsulated# input forms and tables as configuration components to simplify future maintenance  improve efficiency',
-        'Utilized #React# #SSR,# #dynamic# #router# #loading# and #lazy# #import# to reduce the request time causing the white screen',
-        'Integrated #Stripe# to support payment with credit card',
-      ],
-    },
-    {
-      hidden: false,
-      name: 'Mini Unix-Like Kernel Development of an Operating System',
-      duration: 'Jan. 2022 - May. 2022',
-      taskList: [
-        "Implemented #process# #scheduling,# #context# #switch# and #mutex# lock with Banker's Algorithm to avoid deadlock",
-        'Designed a #virtual# #memory# #management# #system# for processes by implementing page tables to perform virtual address translation. The virtual memory is implemented by a linked list of “mmobj”, which has different kinds of methods based on the type of the “mmobj” (C style polymorphism)',
-        'Developed a #virtual# #file# #system# which can perform read, write, and delete operations for files',
       ],
     },
 
@@ -56,6 +30,34 @@ export const projectInfo: Projects = {
     },
     {
       hidden: false,
+      name: 'Online Shopping Website Based on React',
+      duration: 'Nov. 2022 - Dec.2022',
+      githubLink: 'https://github.com/easianyu/yixuan-kkshop',
+      deployLink: 'https://inquisitive-starlight-56e8cb.netlify.app/',
+      taskList: [
+        'A single Page E-commerce Application using #React# and #React-Router# and #hooks,# coded in #TypeScript.# with #Firebase# as its backend. ' +
+          // 'Users can sign in/out/up, browse various types of clothes and add them to the cart',
+          // 'Applied #Sass# and #Styled-component# ( as a tool to write #CSS# #in# #JS# ) to style the page',
+          'Used latest #Redux-toolkit# to store and manage the state of users and products',
+        'Added #Redux-saga# and #thunk# into middleware to manage async functions and utilized #React# #SSR,# #dynamic# #router# #loading# and #lazy# #import# to reduce the request time causing the white screen',
+        // '#Encapsulated# input forms and tables as configuration components to simplify future maintenance  improve efficiency',
+        // 'Utilized #React# #SSR,# #dynamic# #router# #loading# and #lazy# #import# to reduce the request time causing the white screen',
+        // 'Integrated #Stripe# to support payment with credit card',
+      ],
+    },
+    {
+      hidden: true,
+      name: 'Mini Unix-Like Kernel Development of an Operating System',
+      duration: 'Jan. 2022 - May. 2022',
+      taskList: [
+        "Implemented #process# #scheduling,# #context# #switch# and #mutex# lock with Banker's Algorithm to avoid deadlock",
+        'Designed a #virtual# #memory# #management# #system# for processes by implementing page tables to perform virtual address translation. The virtual memory is implemented by a linked list of “mmobj”, which has different kinds of methods based on the type of the “mmobj” (C style polymorphism)',
+        'Developed a #virtual# #file# #system# which can perform read, write, and delete operations for files',
+      ],
+    },
+
+    {
+      hidden: true,
       name: "Easian's CSS Hub: Arts and Animations of CSS Works",
       duration: 'Dec. 2022 - Present',
       githubLink: 'https://github.com/easianyu/css-hub',
@@ -65,7 +67,7 @@ export const projectInfo: Projects = {
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       name: 'Employee Attendance Management System',
       duration: 'Mar. 2020 - May 2020',
       githubLink: 'https://github.com/easianyu/employee_attendance_system',
@@ -76,7 +78,7 @@ export const projectInfo: Projects = {
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       name: 'A CPU Design Based on MIPS Instruction Set',
       duration: 'Mar. 2019 - May 2019',
       taskList: [
@@ -86,7 +88,7 @@ export const projectInfo: Projects = {
       ],
     },
   ],
-};
+}
 // https://easianyu.github.io/css-hub/
 // A CPU Design Based on MIPS Instruction Set	Jun. 2019
 // Independently implemented the CPU with 5-level pipelining through Verilog and FPGA experiment box

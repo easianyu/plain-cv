@@ -26,8 +26,8 @@ export const experienceInfo: Experiences = {
         'Built a multi-level user system using #PATH# design and utilized #Redis# to cache level infos, which significantly boosted the level query speed by #150%# compared to legacy system who used single table to record level info.',
         'Utilized #Hangfire# to schedule tasks without blocking the main thread, which improved the performance by #30%.#',
         'Used #AWS# #CloudWatch# to monitor the system and #AWS# #S3# to store the logs and user files making it easier to debug and maintain the system.',
-        'Developed a comprehensive #Vue3# + #TypeScript# web app with #Vite,# boosting user retention by 20% through streamlined trading account transactions',
-        'Crafted an intuitive and responsive user interface employing #Bootstrap# and #Element-Plus,# focusing on usability principles to deliver a superior user experience across various devices and screen sizes',
+        'Developed a comprehensive #Vue3# + #TypeScript# web app with #Vite,# boosting user retention by 20% through a more intuitive and responsive user interface.',
+        'Crafted an intuitive and #responsive# user interface employing #Bootstrap# and #Element-Plus,# focusing on usability principles to deliver a superior user experience across various devices and screen sizes',
       ],
     },
     {
@@ -39,11 +39,11 @@ export const experienceInfo: Experiences = {
       taskList: [
         'Improved the speed of image encoding of #x265# in #C++.# Utilizing #SSE/AVX# and #NEON# instruction set to accelerate the computation in image processing and provide #JavaScript# APIs to generate data packing size, which speeded up the image encoding time by #60%#',
         'Integrated the improved x265 into our #libheif# library, wrote #Shell# scripts on #Linux# to get optimal encoding parameters for converting .jpeg images to .heif version on ^Meituan^ ^App.^ This optimization reduces encoding time by #36%# and compression ratio by 22% compared to the current .webp format version',
-        'Applied optimized image format into ^Meituan^ ^App^ using #React# #Native#',
+        // 'Applied optimized image format into ^Meituan^ ^App^ using #React# #Native#',
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       company: 'University of Science and Technology Beijing',
       position: 'Research Assistant',
       address: 'Beijing',
@@ -53,7 +53,7 @@ export const experienceInfo: Experiences = {
       ],
     },
     {
-      hidden: false,
+      hidden: true,
       company: 'Institute of Automation, Chinese Academy of Sciences',
       position: 'Research Assistant',
       address: 'Beijing',
